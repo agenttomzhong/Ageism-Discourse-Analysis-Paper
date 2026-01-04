@@ -6,6 +6,7 @@
 
 > **Note:** This repository contains the source code and dataset for the paper:  
 > **"基于自建微博语料库的代际冲突话语关键词与语义场分析"**
+
 《基于自建微博语料库的代际冲突话语关键词与语义场分析》的代码与数据集。基于微博语料库，结合语料库语言学与 BERT 模型分析年龄歧视话语。
 
 ## 项目介绍
@@ -48,7 +49,7 @@
 
 ### 环境要求
 
-本项目基于 Python 3 开发，建议使用 Anaconda 环境。
+本项目基于 Python 3 开发
 
 ### 安装依赖
 
@@ -60,10 +61,7 @@ pip install -r requirements.txt
 
 ### 运行分析
 
-1.  克隆本仓库到本地：
-    ```bash
-    git clone https://github.com/your-username/Weibo-Ageism-Analysis.git
-    ```
+1.  克隆本仓库到本地。
 2.  确保目录下包含 `age.csv` 和 `stopwords.txt`。
 3.  打开 `corpus_analysis.ipynb` 并按顺序运行所有单元格。
 
